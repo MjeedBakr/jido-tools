@@ -1,4 +1,4 @@
 
 ### Available Tools
 
-- **[Url Shortener](https://jido.laravel.cloud/link-shortener)**
+- **[Url Shortener](https://jido.laravel.cloud/url-shortener)**
