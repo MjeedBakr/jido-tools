@@ -30,7 +30,7 @@
                 <div class="mt-2 flex items-center space-x-2">
                     <input 
                         type="text" 
-                        value="{{ url('/s/' . $shortCode) }}" 
+                        value="{{ url('/' . $shortCode) }}" 
                         class="flex-1 px-3 py-2 border border-gray-300 rounded-md bg-gray-50" 
                         readonly
                         id="shortUrlInput"

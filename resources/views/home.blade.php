@@ -1,23 +1,15 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        @vite('resources/css/app.css')
-        @livewireStyles
-    </head>
-    <body class="bg-gray-100 min-h-screen" dir="rtl">
-        <header class="bg-blue-600 shadow-md">
-            <div class="container mx-auto px-4 py-6">
-                <h1 class="text-3xl font-bold text-white">مختصر الروابط</h1>
-            </div>
-        </header>
-    
-        <main class="container mx-auto px-4 py-8">            
-            <livewire:url-shortener />
-        </main>
-
-
-        @livewireScripts
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jido Tools</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="text-center">
+        <h1 class="text-4xl font-bold text-gray-800">This is Jido tools website</h1>
+        <a href="{{ route('url-shortener') }}" class="mt-4 px-4 py-2 bg-blue-500 text-white rounded inline-block">URL Shortener</a>
+    </div>
+</body>
 </html>

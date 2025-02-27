@@ -33,7 +33,7 @@ class ShortUrl extends Model
      */
     public function getShortUrlAttribute()
     {
-        return url('/s/' . $this->short_code);
+        return url('/' . $this->short_code);
     }
 
     /**
